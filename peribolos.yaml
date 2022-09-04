@@ -6,6 +6,7 @@ orgs:
       - rbuilta
       - RSEA0651
       - sabre1041
+      - peribolos
     billing_email: cjenkins@redhat.com
     company: ""
     default_repository_permission: admin
