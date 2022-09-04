@@ -5,6 +5,7 @@ orgs:
       - boogiespook
       - rbuilta
       - RSEA0651
+      - sabre1041
     billing_email: cjenkins@redhat.com
     company: ""
     default_repository_permission: admin
@@ -25,7 +26,6 @@ orgs:
       - kpeeples
       - Loki1076
       - ryenumul
-      - sabre1041
       - sbrook-rh
       - TateDeVito
       - twling
