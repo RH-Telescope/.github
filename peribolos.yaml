@@ -1,0 +1,127 @@
+orgs:
+  RH-Telescope:
+    admins:
+      - BlackbeardUSMC
+      - boogiespook
+      - rbuilta
+      - RSEA0651
+    billing_email: cjenkins@redhat.com
+    company: ""
+    default_repository_permission: admin
+    description: Sponsored by Red Hat
+    email: ""
+    has_organization_projects: true
+    has_repository_projects: true
+    location: ""
+    members:
+      - Boltovnya
+      - christophermay07
+      - cnicol-cyber
+      - dclark-redhat
+      - dwinchell
+      - hello-txie
+      - IsaacRedHat
+      - jeremycohn
+      - kpeeples
+      - Loki1076
+      - ryenumul
+      - sabre1041
+      - sbrook-rh
+      - TateDeVito
+      - twling
+      - urena-01
+    members_can_create_repositories: true
+    name: Project Telescope
+    repos:
+      .github:
+        default_branch: main
+        has_projects: true
+      CTF:
+        default_branch: main
+        description: Capture the Flag! - Extra activity for customer-facing events. Not related to Product Deployment
+        has_projects: true
+      CTF-Solution:
+        default_branch: main
+        description: capture the flag! - Extra activity for customer-facing events. Not related to Product Deployment
+        has_projects: true
+        private: true
+      RH-Telescope.github.io:
+        default_branch: main
+        has_projects: true
+      babeljenks:
+        default_branch: main
+        description: Language Flashcards
+        has_issues: false
+        has_projects: true
+      backend-service:
+        default_branch: main
+        description: simple REST service to serve up and store data into a Postgres DB
+        has_projects: true
+      dashboard-example:
+        default_branch: main
+        description: Sample PatternFly static dashboard, not used in product.
+        has_projects: true
+      dashboard-react-app:
+        default_branch: main
+        has_projects: true
+      dashboard-react-app-ops:
+        default_branch: main
+        has_projects: true
+      documents:
+        default_branch: main
+        description: Misc. documents for project/events/etc Not related to Product Deployment
+        has_projects: true
+      telescope-backend:
+        default_branch: main
+        has_projects: true
+      telescope-backend-ops:
+        default_branch: main
+        has_projects: true
+      ubiquitous-journey:
+        default_branch: main
+        description: "\U0001F9F0 Open Innovation Labs Developer Experience - all the tooling for starting a residency"
+        has_issues: false
+        has_projects: true
+        homepage: http://rht-labs.com/ubiquitous-journey
+    teams:
+      Admins:
+        description: Project Governance and Ownership
+        maintainers:
+          - rbuilta
+          - boogiespook
+          - BlackbeardUSMC
+          - RSEA0651
+        members:
+          - sabre1041
+          - jeremycohn
+        privacy: secret
+      CTF_Admins:
+        description: Capture the Flag creation team
+        maintainers:
+          - boogiespook
+          - BlackbeardUSMC
+          - RSEA0651
+        privacy: closed
+      Security:
+        description: Security Admins
+        maintainers:
+          - boogiespook
+          - BlackbeardUSMC
+          - RSEA0651
+        members:
+          - sabre1041
+        privacy: closed
+        repos:
+          .github: read
+          CTF: read
+          CTF-Solution: read
+          RH-Telescope.github.io: read
+          babeljenks: read
+          backend-service: read
+          dashboard-example: read
+          dashboard-react-app: read
+          dashboard-react-app-ops: read
+          documents: read
+          telescope-backend: read
+          telescope-backend-ops: read
+          ubiquitous-journey: read
