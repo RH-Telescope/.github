@@ -1,0 +1,32 @@
+---
+orgs:
+  - name: telescope
+    repos:
+      - name: dashboard-app-react
+        visibility: public
+        permissions:
+          - name: dwinchell_redhat
+            type: user
+            role: admin
+      - name: telescope-backend
+        visibility: public
+        permissions:
+          - name: chmay
+            type: user
+            role: admin
+    robots:
+      - name: ci
+        description: "used by the ci pipeline to publish images"
+    teams:
+      - name: owners
+        role: admin
+        members:
+          - name: ablock
+          - name: chmay
+          - name: dwinchell_redhat
+          - name: hello_txie
+          - name: ppremru
+          - name: rerenberg
+          - name: rrhn_gps_jcohn
+
+
