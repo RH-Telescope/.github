@@ -84,6 +84,10 @@ orgs:
         has_issues: false
         has_projects: true
         homepage: http://rht-labs.com/ubiquitous-journey
+      api-server-stub:
+        default_branch: main
+        description: "A Simple API server to get example results when a real endpoint isn't available"
+        has_projects: true
     teams:
       Admins:
         description: Project Governance and Ownership
