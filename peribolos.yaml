@@ -87,11 +87,11 @@ orgs:
       api-server-stub:
         default_branch: main
         description: "A Simple API server to get example results when a real endpoint isn't available"
-        has_projects: true
+        has_projects: false
       api-server-postgres:
         default_branch: main
         description: "Simple Node API app to get data from the postgrsql db"  
-        has_projects: true
+        has_projects: false
     teams:
       Admins:
         description: Project Governance and Ownership
