@@ -91,6 +91,7 @@ orgs:
       api-server-postgres:
         default_branch: main
         description: "Simple Node API app to get data from the postgrsql db"  
+        has_projects: true
     teams:
       Admins:
         description: Project Governance and Ownership
