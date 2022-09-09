@@ -39,11 +39,13 @@ orgs:
         has_projects: true
       CTF:
         default_branch: main
-        description: Capture the Flag! - Extra activity for customer-facing events. Not related to Product Deployment
+        description: >-
+          "Capture the Flag for customer-facing events. Not part or Product Dev"
         has_projects: true
       CTF-Solution:
         default_branch: main
-        description: capture the flag! - Extra activity for customer-facing events. Not related to Product Deployment
+        description: >-
+          "Capture the flag! - Solution. Not related to Product Deployment"
         has_projects: true
         private: true
       RH-Telescope.github.io:
@@ -51,16 +53,17 @@ orgs:
         has_projects: true
       babeljenks:
         default_branch: main
-        description: Language Flashcards
+        description: "Language Flashcards"
         has_issues: false
         has_projects: true
       backend-service:
         default_branch: main
-        description: simple REST service to serve up and store data into a Postgres DB
+        description: >-
+          "Simple REST service to serve up and store data into a Postgres DB"
         has_projects: true
       dashboard-example:
         default_branch: main
-        description: Sample PatternFly static dashboard, not used in product.
+        description: "Sample PatternFly static dashboard, not used in product."
         has_projects: true
       dashboard-react-app:
         default_branch: main
@@ -70,7 +73,8 @@ orgs:
         has_projects: true
       documents:
         default_branch: main
-        description: Misc. documents for project/events/etc Not related to Product Deployment
+        description: >-
+          "Doc for project/events/etc Not related to Product Deployment"
         has_projects: true
       telescope-backend:
         default_branch: main
@@ -80,13 +84,15 @@ orgs:
         has_projects: true
       ubiquitous-journey:
         default_branch: main
-        description: "\U0001F9F0 Open Innovation Labs Developer Experience - all the tooling for starting a residency"
+        description: >-
+          "Open Innovation Labs Developer Experience - all the tooling"
         has_issues: false
         has_projects: true
         homepage: http://rht-labs.com/ubiquitous-journey
       api-server-stub:
         default_branch: main
-        description: "A Simple API server to get example results when a real endpoint isn't available"
+        description: >-
+          "A Simple API server to get example results"
         has_projects: false
       api-server-postgres:
         default_branch: main
