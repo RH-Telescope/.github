@@ -134,3 +134,5 @@ orgs:
           telescope-backend: read
           telescope-backend-ops: read
           ubiquitous-journey: read
+          api-server-stub: read
+          api-server-postgres: read
