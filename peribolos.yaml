@@ -142,3 +142,4 @@ orgs:
           ubiquitous-journey: read
           api-server-stub: read
           api-server-postgres: read
+          demo-repository: read
