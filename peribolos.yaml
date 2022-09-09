@@ -90,7 +90,7 @@ orgs:
         has_projects: false
       api-server-postgres:
         default_branch: main
-        description: "Simple Node API app to get data from the postgrsql db"  
+        description: "Simple Node API app to get data from the postgrsql db"
         has_projects: false
     teams:
       Admins:
