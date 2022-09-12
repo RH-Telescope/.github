@@ -98,6 +98,10 @@ orgs:
         default_branch: main
         description: "Simple Node API app to get data from the postgrsql db"
         has_projects: false
+      helm-charts:
+        default_branch: main
+        description: "Helm Charts for Project Telescope"
+        has_projects: false
     teams:
       Admins:
         description: Project Governance and Ownership
@@ -143,3 +147,4 @@ orgs:
           api-server-stub: read
           api-server-postgres: read
           demo-repository: read
+          helm-charts: read
